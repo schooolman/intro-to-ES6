@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> lessson 2</title>
+  </head>
+  <body>
+    <script>
+
+      const key = 'abc123'; //cannot update a const variable.
+      let points = 50; // let variables are allowed to be updated.
+      let winner = false;
+
+      if(points > 40) {
+        console.log('it ran');
+        let winner = true; //this is block scoped so not updating
+      }
+
+      const person = {
+        name: 'jake',
+        age: 30
+      }
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intro to ES6</title>
+  </head>
+  <body>
+
+    <script>
+    var width;
+
+    function setWidth(){
+      var width = 100;
+      console.log(width);
+    }
+    setWidth();
+    console.log(width);
+
+    // Any time there are curly brackets that is a "block"
+    var age = 100;
+    if(age > 12){
+      // let variables are block scoped unlike var variables which are function scoped
+      let dogYears = age * 7;
+      console.log('you are ' + dogYears + ' dog years old!');
+    }
+      // var width = 100;
+      // console.log(width);
+      //
+      // var width = 200;
+      // console.log(width);
+      //
+      let height = 200;
+      const key = 'abc123';
+    </script>
+
+  </body>
+</html>
